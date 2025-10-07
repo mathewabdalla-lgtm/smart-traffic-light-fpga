@@ -46,14 +46,16 @@ The system cycles through traffic light states with timed intervals and includes
 ---
 
 ## File Structure
-/rtl # Verilog source files
-top.v # Top-level design
-fsm.v # State machine logic
-clk_div.v # Clock divider module
-/simulation # Testbench files
-/docs # Photos, block diagram, notes
-constraints.sdc # Timing constraints
-README.md # Project documentation
+```
+/rtl              # Verilog source files
+    top.v         # Top-level design
+    fsm.v         # State machine logic
+    clk_div.v     # Clock divider module
+/simulation       # Testbench files
+/docs             # Photos, block diagram, notes
+constraints.sdc   # Timing constraints
+README.md         # Project documentation
+```
 
 ---
 
@@ -64,12 +66,6 @@ README.md # Project documentation
 4. Assign pins in **Pin Planner** according to the table above.  
 5. Compile the project and program the FPGA using the USB-Blaster.
 
----
-
-## Demo (Optional)
-You can upload:
-- A short GIF/video showing the LEDs cycling  
-- A block diagram or pin layout image  
 
 ---
 
